@@ -23,3 +23,5 @@ class CookieJarStack(core.Stack):
             retain_on_delete=False,
             prune=false,
         )
+
+        core.CfnOutput(self, "S3Website", value=cookie_jar.bucket_website_url)

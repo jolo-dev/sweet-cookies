@@ -30,12 +30,5 @@ cookiecutter gh:https://github.com/jolo-dev/sweet-cookies
 
 Choose your ingredients and bake something nice!
 
-If your cookies are ready to put in the oven, let run:
-
-```bash
-chmod +x ./bake.sh
-./bake.sh
-```
-
 Let's show the world your delicious cookies!
 Watch it's baking and Enjoy! 🍪

@@ -3,5 +3,22 @@
   "python.linting.pylintEnabled": true,
   "python.linting.pylintPath": "./{{cookiecutter.project_slug}}/.env/bin/pylint",
   "python.linting.enabled": true,
-  "python.pythonPath": "./{{cookiecutter.project_slug}}/.env/bin/python3"
+  "python.pythonPath": "./{{cookiecutter.project_slug}}/.env/bin/python3",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#d1fa51",
+    "activityBar.activeBorder": "#06a6d9",
+    "activityBar.background": "#d1fa51",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#06a6d9",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#c4f91f",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#aadf06",
+    "titleBar.activeBackground": "#c4f91f",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#c4f91f99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#c4f91f"
 }

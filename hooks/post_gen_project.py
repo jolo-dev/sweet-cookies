@@ -72,3 +72,12 @@ elif "{{ cookiecutter.chocolate_chips }}" == "Flask":
     os.system(
         "pip install --upgrade -r ./chocolate_chips/requirements.txt --target ./chocolate_chips/flask"
     )
+
+deploy_chocolate = input(
+    HINT + "Do you want to deploy the chocolate (y/n): " + TERMINATOR
+).lower()
+
+if deploy_chocolate == "y":
+    os.system(
+        "npx cdk deploy chocolate-chips"
+    )

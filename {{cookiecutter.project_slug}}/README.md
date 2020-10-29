@@ -1,12 +1,17 @@
-# Baking Cookies
+# Ingredients
 
-After baking tasty cookies, you want to put them in a Cookie Jar and show them the world.
+Now that you have your ingredients, it is time to make something great.
+
+You have now a full stack of {{cookiecutter.dough}} as Frontend, and {{cookiecutter.chocolate_chips}} as a Backend. 
+
+## Baking Cookies 🍪
+
+After baking tasty cookies🍪, you want to put them in a Cookie Jar and show them the world☁️.
 This is a Kit for deploying your application to AWS by using the [CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html).
 
-If you're done baking, you can simply run the `bake.sh`.
+Simply run:
 
 ```bash
-# Make it executable first
-chmod +x bake.sh
+chmod +x ./bake.sh
 ./bake.sh
 ```

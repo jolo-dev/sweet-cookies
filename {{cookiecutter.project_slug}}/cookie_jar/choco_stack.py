@@ -26,5 +26,6 @@ class ChocoStack(core.Stack):
         )
 
         # defines an API Gateway REST API resource backed by our "lambda_lith" function.
-        api_gw.LambdaRestApi(self, "CookieApi", handler=chocolate)
+        gw = api_gw.LambdaRestApi(self, "CookieApi", handler=chocolate)
 
+        core.CfnOutput(self, "ApiUrl", value=gw.url)
